@@ -1,0 +1,64 @@
+.MuiDataGrid-root .MuiDataGrid-iconSeparator {
+  display: none;
+}
+
+.MuiDataGrid-root {
+  background-color: #636262;
+  color: white !important;
+}
+.MuiDataGrid-footer {
+  color: white !important;
+}
+
+.MuiTablePagination-caption,
+.MuiTablePagination-select,
+.MuiTablePagination-toolbar > span {
+  color: white !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  color: white;
+  overflow: visible !important;
+  white-space: nowrap;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+  padding: 5px;
+  align-items: center;
+  color: white;
+}
+
+.MuiDataGrid-root .MuiDataGrid-row {
+  border: none;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnSeparator,
+.MuiDataGrid-root .MuiDataGrid-columnHeaderSeparator {
+  display: none;
+}
+
+.MuiDataGrid-root .MuiCheckbox-root {
+  color: white;
+}
+
+.MuiDataGrid-cellCheckbox .MuiIconButton-root.Mui-checked .MuiSvgIcon-root {
+  fill: orange !important;
+}
+
+.MuiDataGrid-root
+  .MuiDataGrid-checkboxInput.Mui-checked
+  .MuiIconButton-label
+  .MuiSvgIcon-root {
+  fill: orange !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-footerContainer {
+  display: block !important;
+}
+
+.MuiDataGrid-selectedRowCount {
+  display: none !important;
+}
+.MuiSvgIcon-root {
+  fill: #ffff;
+}
