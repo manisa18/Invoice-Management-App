@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+### Problem Statement for Web Application Development:
+**Project based on ReactJS,MUI, JAVA, MySQL.**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The objective of the Web Application Development internship project is:
+To build a **Full-stack Invoice Management Application** using React Js, JDBC, Java Servlets.
+* Build a **responsive Receivables Dashboard.**
+* **Visualize Data** in the form of grids.
+* Perform **Searching** operations on the invoices.
+* **Add and Edit Data** in the editable fields of the grid.
+* **Delete Data** of selected rows in predefined templates.
+* **Predict button** - Clicking on the “Predict” button will populate the Order Amount column. 
 
-## Available Scripts
+## Receivables Dashboard Page
+It consists of 3 sections:
+# 1. Header:
+First Section is the header which comprises the **ABC Product logo on the left, the Highradius Logo in the middle and Invoice List in the bottom left.**
+# 2. Body
+The second section consists of **Homepage, Add data, Analytics view, Search and Advance Search.**
+# 3. Footer
+The third section consists of **privacy policy**
 
-In the project directory, you can run:
+## Body : Homepage
+# Section 1:
+# Grid:
+Grid with below 10 columns from the database along with Checkbox
+Sl No, Customer Order Id, Sales Org, Distribution Channel, Company Code, Order Creation Date, Order Currency, Customer Number, Amount in USD, Order Amount
 
-### `npm start`
+# Section 2:
+All the buttons should present in this section
+  1. Refresh Data Button
+    * On clicking should refresh the Grid Data
+  2. Edit Button
+    * It should be disabled by default
+    * Enable edit button on selecting checkbox and should be disabled on selecting multiple check
+    * On clicking edit button, a pop up window will appear with pre populated data of the selected row
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  3. Delete Button
+    * Delete button should also be disabled by default 
+    * Enable the delete button on selection single or multiple checkbox
+    * Delete button  should be able to delete single or multiple row
+    * On clicking delete button there should be a popup window for delete confirmation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  4. Predict Button
+     * The Predict button should be enabled on selecting the checkbox (1 row).
+     * On clicking the button it should populate the predicted amount in the Order Amount column.
+     * Here we have 0 by default in the order amount for Sl no- 2 . On click it will predict the order amount.
+       
+  5. Pagination
+     * User should be able to section number of rows for page
 
-### `npm test`
+## Body : Add Data
+Add section should contain following text fields and Date Fields
+Customer Order ID, Sales Org, Distribution Channel, Customer Number, Company Code, Order Currency, Amount in USD, Order Creation Date - Date Field
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Body : Analytics View
+Analytics view contains two text fields named as Distribution Channel and Customer Number
+- Bar graph 
+- Pie Chart
 
-### `npm run build`
+## Body : Search
+* User should be able to search with help of Customer Order ID and on hitting enter a new search result section will appear after the Add data section with the output.
+* There should be a Clear button appear in place of the Advance Search button  beside the search text field on clicking on the clear button search results section and the clear button should hide and move back to Home Page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Body : Advance Search
+* On clicking Advance Search button there should be a pop window showing the text fields for the search
+* By default there should be 3 text fields Customer Order Id. Customer Number, Sales Org.
+* On hitting enter after every input advance search should show the inputs given as below. It should be able to take multiple inputs for the same field.
+* Output should be in the search result section 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
