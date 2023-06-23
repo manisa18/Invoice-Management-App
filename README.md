@@ -28,24 +28,24 @@ Sl No, Customer Order Id, Sales Org, Distribution Channel, Company Code, Order C
 ### Section 2:
 All the buttons should present in this section
   1. Refresh Data Button
-    * On clicking should refresh the Grid Data
+     * On clicking should refresh the Grid Data
   2. Edit Button
-    * It should be disabled by default
-    * Enable edit button on selecting checkbox and should be disabled on selecting multiple check
-    * On clicking edit button, a pop up window will appear with pre populated data of the selected row
+     * It should be disabled by default
+     * Enable edit button on selecting checkbox and should be disabled on selecting multiple check
+     * On clicking edit button, a pop up window will appear with pre populated data of the selected row
 
-  3. Delete Button
-    * Delete button should also be disabled by default 
-    * Enable the delete button on selection single or multiple checkbox
-    * Delete button  should be able to delete single or multiple row
-    * On clicking delete button there should be a popup window for delete confirmation
+  4. Delete Button
+     * Delete button should also be disabled by default
+     * Enable the delete button on selection single or multiple checkbox
+     * Delete button  should be able to delete single or multiple row
+     * On clicking delete button there should be a popup window for delete confirmation
 
-  4. Predict Button
+  6. Predict Button
      * The Predict button should be enabled on selecting the checkbox (1 row).
      * On clicking the button it should populate the predicted amount in the Order Amount column.
      * Here we have 0 by default in the order amount for Sl no- 2 . On click it will predict the order amount.
        
-  5. Pagination
+  7. Pagination
      * User should be able to section number of rows for page
 
 ## Body : Add Data
