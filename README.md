@@ -1,4 +1,4 @@
-### Problem Statement for Web Application Development:
+# Problem Statement for Web Application Development:
 **Project based on ReactJS,MUI, JAVA, MySQL.**
 
 The objective of the Web Application Development internship project is:
@@ -12,20 +12,20 @@ To build a **Full-stack Invoice Management Application** using React Js, JDBC, J
 
 ## Receivables Dashboard Page
 It consists of 3 sections:
-# 1. Header:
+### 1. Header:
 First Section is the header which comprises the **ABC Product logo on the left, the Highradius Logo in the middle and Invoice List in the bottom left.**
-# 2. Body
+### 2. Body
 The second section consists of **Homepage, Add data, Analytics view, Search and Advance Search.**
-# 3. Footer
+### 3. Footer
 The third section consists of **privacy policy**
 
 ## Body : Homepage
-# Section 1:
-# Grid:
+### Section 1:
+#### Grid:
 Grid with below 10 columns from the database along with Checkbox
 Sl No, Customer Order Id, Sales Org, Distribution Channel, Company Code, Order Creation Date, Order Currency, Customer Number, Amount in USD, Order Amount
 
-# Section 2:
+### Section 2:
 All the buttons should present in this section
   1. Refresh Data Button
     * On clicking should refresh the Grid Data
